@@ -30,10 +30,6 @@ body {
 	}
 }
 
-#back {
-	color:lightgreen;	
-}
-
 button, input, textarea {
     font-family: 'M PLUS 1', sans-serif;
     transition:all 0.75s;
