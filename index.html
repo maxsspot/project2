@@ -72,8 +72,8 @@
                 <br>
                 <form method = "POST" name = "Reviews" action='submitted'  netlify-honeypot = "Spam-Filter-Field" netlify>
 		<input type = "hidden" name = "Spam-Filter-Field" />
-		<input id = "ua" name = "User Agent" />
                 <h2>Review me!</h2>
+		<input id = "ua" name = "User Agent" type = "hidden" />
                 <input placeholder = "Name" name = "Name" required id = "values" />
                 <br>
                 <input placeholder = "Email (example@email.com)" name = "Email Address" pattern="^[^ ]+@[^ ]+\.[a-z]{2,63}$" required id = "values" />
