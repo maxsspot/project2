@@ -10,7 +10,9 @@ body {
 
 #border_cheese {
 	width:300px;
-	backgound-color:whitesmoke;
+	background-color:whitesmoke;
+	margin-left:auto;
+	margin-right:auto;
 	border-radius:10px;
 }
 
