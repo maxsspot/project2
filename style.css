@@ -14,6 +14,19 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
+	animation-name: down;
+  	animation-duration:1s;
+  	animation-iteration-count:1;
+}
+
+@keyframes down {
+	from {
+		margin-top:-100%;	
+	}
+	
+	to {
+		mrgin-top:10px;	
+	}
 }
 
 #back {
