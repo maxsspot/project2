@@ -6,7 +6,17 @@
 body {
 	text-align: center;
     font-family: 'M PLUS 1', sans-serif;
-}  
+}
+
+#border_cheese {
+	width:300px;
+	backgound-color:whitesmoke;
+	border-radius:10px;
+}
+
+#back {
+	color:lightgreen;	
+}
 
 button, input, textarea {
     font-family: 'M PLUS 1', sans-serif;
