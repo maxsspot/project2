@@ -5,7 +5,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200&display=swap" rel="stylesheet">
 	<script src = "script.js" defer async></script>
-	<link rel = "styleseet" src = "style.css">
+	<link rel = "styleseet" src = "style.css" defer async>
 	<link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F2%2FLetter-R-PNG-Pic.png&f=1&nofb=1" type = "image/x-icon" crossorigin>
 	<title>My IR Project</title>
 	</head>
@@ -57,10 +57,10 @@
             <h2>Review</h2>
             <p>I rate this book 4/5 files. I like how the author, E.L. Konigsburg, wrote the plot.</p>
             <br>
-            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" />
-            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" />
-            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" />
-            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" />
+            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" loading = "lazy" />
+            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" loading = "lazy" />
+            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" loading = "lazy" />
+            <img src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Ffolder%2Ffolder_PNG8754.png&f=1&nofb=1" loading = "lazy" />
             <br>
             <br>
             <a onclick = "inside()">Go back!</a>
@@ -107,170 +107,5 @@
             <br>
         </div>
         <br>
-        <script>
-
-        </script>
-	<style>
-		* {
-    margin:0;
-    padding:0;
-}
-
-body {
-	text-align: center;
-    font-family: 'M PLUS 1', sans-serif;
-}  
-
-button, input, textarea {
-    font-family: 'M PLUS 1', sans-serif;
-    transition:all 0.75s;
-    outline:none;
-}
-
-a {
-    text-decoration:none;
-    transition:all 0.5s;
-    border-bottom:transparent;
-}
-
-#review {
-    float:right;
-    margin-right:15px;
-    margin-top:16px;
-    cursor:pointer;
-    color:green;
-}
-
-a, button {
-    cursor:pointer;
-    background-color:transparent;
-    border:transparent;
-}
-
-img {
-    width:40px;
-    height:40px;
-    margin:5px;
-}
-
-#border {
-    background-color:whitesmoke;
-    width:100%;
-    height:999vh;
-    margin-top:10px;
-}
-
-textarea {
-    resize:none;
-    height:75px;
-    border:gainsboro solid 1px;
-    border-radius:10px;
-}
-
-input {
-    height:35px;
-    border:gainsboro solid 1px;
-    border-radius:10px;
-}
-
-input:focus {
-    background-color:gainsboro;
-}
-
-textarea:focus {
-    background-color:gainsboro;
-}
-
-input, textarea {
-    width:225px;
-    margin:3px;
-    text-indent:10px;
-    background-color:transparent;
-}
-
-#review_idea {
-    transition:all 0.75s;
-    margin-left:-100%;
-    opacity:1;
-    width:100%;
-    position:fixed;
-}
-
-#home {
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-
-}
-
-#topic {
-    width:225px;
-    height:50px;
-    margin:5px;
-    border-radius:10px;
-    background-color:skyblue;
-}
-
-#topic:hover {
-    background-color:#82EEFD;
-}
-
-#topic:active {
-    transform:scale(1.05);
-}
-
-#bg {
-    opacity:0.85;
-    width:100%;
-    position:fixed;
-    height:100%;
-    background-color:black;
-}
-
-a:hover {
-    border-bottom:black solid 1px;
-}
-
-#first, #second, #third, #fourth, #fifth, #sixth {
-    margin-left:-100%;
-    transition:all 1s;
-    width:100%;
-    height:999vh;
-    position:fixed;
-    background-color:whitesmoke;
-}
-
-p {
-    width:300px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-#home {
-    transition:all 1s;
-}
-
-#transition {
-    width:100%;
-    height:999vh;
-    transition:all 0.5s;
-    position:fixed;
-    margin-left:-100%;
-    background-color:ghostwhite;
-}
-
-nav {
-    background-color:whitesmoke;
-    width:100%;
-    height:60px;
-    position:fixed;
-}
-
-#title {
-    float:left;
-    margin-left:15px;
-    margin-top:15px;
-}
-	</style>
 	</body>
 </html>
