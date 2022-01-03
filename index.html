@@ -70,7 +70,8 @@
                 <a style = "float:right;margin-right:15px;" onclick = "closereview()">×</a>
                 <br>
                 <br>
-                <form method = "POST" name = "Reviews" netlify>
+                <form method = "POST" name = "Reviews" action='submitted'  netlify-honeypot = "Spam-Filter-Field" netlify>
+		<input type = "hidden" name = "Spam-Filter-Field" />
                 <h2>Review me!</h2>
                 <input placeholder = "Name" name = "Name" required id = "values" />
                 <br>
