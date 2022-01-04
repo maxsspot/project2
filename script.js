@@ -53,3 +53,11 @@
             function sixth () {
                 document.getElementById ("sixth").style.marginLeft = "0px";
             }
+           function getCookie(submitted) { 
+  var cookies = '; ' + document.cookie; 
+  var splitCookie = cookies.split('; ' + name + '='); 
+  if (splitCookie.lenght == 2) return splitCookie.pop();
+}
+if (getCookie('a')) {
+    document.getElementById ("a").disabled = true;
+}
