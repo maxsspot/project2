@@ -8,6 +8,20 @@ body {
     font-family: 'M PLUS 1', sans-serif;
 }
 
+#closerev {
+	float:right;
+	margin-right:15px;	
+	border-radius:10px;
+}
+
+#closerev:hover {
+	background-color:gainsboro;
+}
+
+#closerev:active {
+	background-color:lightgray;	
+}
+
 #border_cheese {
 	width:300px;
 	background-color:whitesmoke;
