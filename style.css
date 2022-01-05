@@ -73,8 +73,10 @@ a, button {
 }
 
 img {
-    width:40px;
-    height:40px;
+    width:35px;
+    background-color:black;
+    border-radius:10px;
+    height:35px;
     margin:5px;
 }
 
@@ -153,7 +155,7 @@ input, textarea {
 }
 
 a:hover {
-    border-bottom:black solid 1px;
+    text-decotion:underline;
 }
 
 #first, #second, #third, #fourth, #fifth, #sixth {
