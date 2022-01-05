@@ -12,6 +12,8 @@ body {
 	float:right;
 	margin-right:15px;	
 	border-radius:10px;
+	width:35px;
+	height:35px;
 }
 
 #closerev:hover {
