@@ -1,4 +1,7 @@
-alert (localStorage.getItem('myCat'));           
+alert (localStorage.getItem('submitted'));    
+if (localStorage.getItem('submitted') = "true") {
+  document.getElementById ("a").disabled = true;  
+}
 function go () {
                 document.getElementById ("transition").style.marginLeft = "0px";
             }
