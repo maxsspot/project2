@@ -1,5 +1,6 @@
-alert (localStorage.getItem('submitted'));    
-if (localStorage.getItem('submitted') = "true") {
+var sum = localStorage.getItem('submitted');
+alert (sum);
+if (sum.value = "true") {
   document.getElementById ("a").disabled = true;  
 }
 function go () {
