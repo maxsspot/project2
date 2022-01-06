@@ -90,22 +90,22 @@ textarea {
     resize:none;
     height:75px;
     border:skyblue solid 1px;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 input {
     height:35px;
     border:skyblue solid 1px;
-    border-radius:10px;
+    border-radius:5px;
 }
 
-input:focus {
+/*input:focus {
     background-color:skyblue;
 }
 
 textarea:focus {
     background-color:skyblue;
-}
+}*/
 
 input, textarea {
     width:225px;
