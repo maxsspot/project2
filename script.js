@@ -1,4 +1,5 @@
-           function go () {
+alert (localStorage.getItem('myCat'));           
+function go () {
                 document.getElementById ("transition").style.marginLeft = "0px";
             }
 
@@ -52,3 +53,8 @@
             function sixth () {
                 document.getElementById ("sixth").style.marginLeft = "0px";
             }
+
+           function check () {
+                      document.getElementById ("a").disabled = true;  
+                      localStorage.setItem("submitted", "true");
+           }
