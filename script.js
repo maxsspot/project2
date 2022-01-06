@@ -1,8 +1,9 @@
 var sum = localStorage.getItem('submitted');
-alert (sum);
 if (sum.value = "true") {
   document.getElementById ("a").disabled = true;  
 }
+
+localStorage.clear();
 function go () {
                 document.getElementById ("transition").style.marginLeft = "0px";
             }
