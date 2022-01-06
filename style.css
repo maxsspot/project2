@@ -89,22 +89,22 @@ img {
 textarea {
     resize:none;
     height:75px;
-    border:gainsboro solid 1px;
+    border:skyblue solid 1px;
     border-radius:10px;
 }
 
 input {
     height:35px;
-    border:gainsboro solid 1px;
+    border:skyblue solid 1px;
     border-radius:10px;
 }
 
 input:focus {
-    background-color:gainsboro;
+    background-color:skyblue;
 }
 
 textarea:focus {
-    background-color:gainsboro;
+    background-color:skyblue;
 }
 
 input, textarea {
