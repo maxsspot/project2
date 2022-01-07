@@ -11,9 +11,6 @@ function go () {
                 document.getElementById ("values").value = null;
             }
 
-            function spam () {
-            }
-
             function inside () {
                 document.getElementById ("first").style.marginLeft = "-100%";
                 document.getElementById ("second").style.marginLeft = "-100%";
@@ -62,3 +59,5 @@ function go () {
                       document.getElementById ("a").disabled = true;  
                       localStorage.setItem("submitted", "true");
            }
+
+           document.getElementById ("lang").value = navigator.language();
