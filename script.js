@@ -1,4 +1,5 @@
 document.getElementById ("nav").style.display = "none";
+document.getElementById ("home").style.display = "none";
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
@@ -72,7 +73,7 @@ function go () {
                       sessionStorage.setItem("submitted2", "true");
            }
 
-var countDownDate = new Date("Jan 10, 2022 15:05:0").getTime();
+var countDownDate = new Date("Jan 7, 2022 16:22:0").getTime();
 
 var x = setInterval(function() {
 
@@ -94,5 +95,6 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById ("overlay").style.transform = "scale(0.0)";
     document.getElementById ("nav").style.display = "block";
+    document.getElementById ("home").style.display = "block";
   }
 }, 1000);
