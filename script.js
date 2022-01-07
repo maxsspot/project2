@@ -1,3 +1,4 @@
+document.getElementById ("nav").style.display = "none";
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
