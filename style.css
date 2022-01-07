@@ -13,9 +13,11 @@ body {
     }
 
     .g-recaptcha {
-        display: inline-block;
-	margin-right:30px;
 	width:225px;
+
+border-radius: 5px;
+border-right: 1px solid #d8d8d8;
+overflow: hidden;
     }
 
 #closerev {
