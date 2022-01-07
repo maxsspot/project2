@@ -1,5 +1,6 @@
 var sum = localStorage.getItem('submitted');
-if (sum.value = "true") {
+var sumb = sessionStorage.getItem('submitted');
+if (sum.value = "true" || sumb.value = "true") {
   document.getElementById ("a").disabled = true;  
 }
 
@@ -58,4 +59,5 @@ function go () {
            function check () {
                       document.getElementById ("a").disabled = true;  
                       localStorage.setItem("submitted", "true");
+                      sessionStorage.setItem("submitted", "true");
            }
