@@ -8,17 +8,12 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 
-    .eee {
-        text-align: center;
-    }
-
-    .g-recaptcha {
-	width:225px;
-
-border-radius: 5px;
-border-right: 1px solid #d8d8d8;
-overflow: hidden;
-    }
+#overlay {
+	width:100%;
+	height:999vh;
+	position:fixed;
+	background-color:skyblue;
+}
 
 #closerev, #openrev {
 	float:right;
