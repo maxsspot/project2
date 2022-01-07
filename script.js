@@ -59,6 +59,3 @@ function go () {
                       document.getElementById ("a").disabled = true;  
                       localStorage.setItem("submitted", "true");
            }
-
-           const language = navigator.language;
-           document.getElementById ("lang").value = language;
