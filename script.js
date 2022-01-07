@@ -73,7 +73,7 @@ function go () {
                       sessionStorage.setItem("submitted2", "true");
            }
 
-var countDownDate = new Date("Jan 7, 2022 16:22:0").getTime();
+var countDownDate = new Date("Jan 7, 2022 16:24:0").getTime();
 
 var x = setInterval(function() {
 
