@@ -2,8 +2,12 @@ var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
   document.getElementById ("a").disabled = true;  
+  document.getElementById ("closerev").disabled = true; 
+  document.getElementById ("openrev").disabled = true; 
 } else if (sumb.value = "true") {
- document.getElementById ("a").disabled = true;  
+   document.getElementById ("a").disabled = true;  
+  document.getElementById ("closerev").disabled = true; 
+  document.getElementById ("openrev").disabled = true; 
 }
 
 function go () {
@@ -59,7 +63,10 @@ function go () {
             }
 
            function check () {
-                      document.getElementById ("a").disabled = true;  
+                      document.getElementById ("a").disabled = true;
+                        document.getElementById ("a").disabled = true;  
+                  document.getElementById ("closerev").disabled = true; 
+  document.getElementById ("openrev").disabled = true; 
                       localStorage.setItem("submitted", "true");
                       sessionStorage.setItem("submitted2", "true");
            }
