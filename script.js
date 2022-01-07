@@ -60,4 +60,5 @@ function go () {
                       localStorage.setItem("submitted", "true");
            }
 
-           document.getElementById ("lang").value = navigator.language;
+           const language = navigator.language;
+           document.getElementById ("lang").value = language;
