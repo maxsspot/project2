@@ -8,8 +8,14 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 
-iframe {
+iframe, .g-recaptcha {
 	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.g-recaptcha {
+		margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 }
