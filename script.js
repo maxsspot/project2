@@ -62,3 +62,7 @@ function go () {
                       document.getElementById ("a").disabled = true;  
                       localStorage.setItem("submitted", "true");
            }
+
+           if (/Mobi|Android/i.test(navigator.userAgent)) {
+    window.location.href = "mobileindependenteading.netlify.app";
+}
