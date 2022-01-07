@@ -72,7 +72,7 @@ function go () {
                       sessionStorage.setItem("submitted2", "true");
            }
 
-var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+var countDownDate = new Date("Jan 10, 2022 15:05:0").getTime();
 
 var x = setInterval(function() {
 
@@ -93,5 +93,6 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById ("overlay").style.transform = "scale(0.0)";
+    document.getElementById ("nav").style.display = "block";
   }
 }, 1000);
