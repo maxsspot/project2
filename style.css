@@ -8,17 +8,13 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 
-iframe, .g-recaptcha {
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-}
+    .eee {
+        text-align: center;
+    }
 
-.g-recaptcha {
-		margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-}
+    .g-recaptcha {
+        display: inline-block;
+    }
 
 #closerev {
 	float:right;
