@@ -88,8 +88,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-  document.getElementById("demo").innerHTML = days + "days " + hours + "hours "
-  + minutes + "minutes " + seconds + "seconds ";
+  document.getElementById("demo").innerHTML = days + " days " + hours + " hours "
+  + minutes + " minutes " + seconds + " seconds ";
   
   if (distance < 0) {
     clearInterval(x);
