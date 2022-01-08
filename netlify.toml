@@ -8,6 +8,7 @@
         Expect-CT = "enforce, max-age=3155760000"
         X-Content-Type-Options = "nosniff"
         Expires = "Mon, 9 Jan 2021 14:05:00 GMT"
+        Accept-Encoding = "gzip"
        
         Strict-Transport-Security = '''
             max-age=31557600;
