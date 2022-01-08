@@ -9,9 +9,8 @@ body {
 }
 
 #afdsdokfdsfs {
-	  display: flex;
-  justify-content: center;
-  align-items: center;
+	  padding:50% 0;
+	  text-align:center;
 }
 
 #overlay {
