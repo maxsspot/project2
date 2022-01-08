@@ -73,7 +73,7 @@ function go () {
                       sessionStorage.setItem("submitted2", "true");
            }
 
-var countDownDate = new Date("Jan 10, 2022 14:05:00").getTime();
+var countDownDate = new Date("Jan 9, 2022 14:05:00").getTime();
 
 var x = setInterval(function() {
 
@@ -98,12 +98,3 @@ var x = setInterval(function() {
     document.getElementById ("home").style.display = "block";
   }
 }, 1000);
-function checkpass () {
-var dkaSkads = 187999 
-var guess = document.getElementbyId ("passw").value;
-if (dkaSkads = guess) {
-       document.getElementById ("overlay").style.transform = "scale(0.0)";
-    document.getElementById ("nav").style.display = "block";
-    document.getElementById ("home").style.display = "block";
-}
-}
