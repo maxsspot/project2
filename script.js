@@ -1,4 +1,7 @@
-document.documentElement.requestFullscreen();
+var elem = document.getElementById("bod");
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+}
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
