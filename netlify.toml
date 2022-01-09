@@ -20,22 +20,3 @@
         Permissions-Policy = '''
             interest-cohort=(none)
         '''
-
-        Content-Security-Policy = '''
-            default-src https:;
-            script-src 'unsafe-inline' https:;
-            style-src 'unsafe-inline' https:;
-            img-src https:;
-            manifest-src 'none';
-            media-src 'none';
-            object-src 'none';
-            form-action 'self';
-            font-src https:
-            frame-ancestors 'none';
-            worker-src 'none';
-            child-src 'none';
-            base-uri 'none';
-            upgrade-insecure-requests;
-            require-trusted-types-for 'script';
-            report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
-        '''
