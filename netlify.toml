@@ -23,8 +23,8 @@
 
         Content-Security-Policy = '''
             default-src https:;
-            script-src https:;
-            style-src https:;
+            script-src 'unsafe-inline' https:;
+            style-src 'unsafe-inline' https:;
             img-src https:;
             manifest-src 'none';
             media-src 'none';
