@@ -6,6 +6,12 @@
          console.log(permission);
       });
    }
+   const notification = new Notification("Presentation day!", {
+      body: "Click to view the presentation early!"
+   })
+   notification.onclick = (e) => {
+      window.location.href = "https://independentreading.netlify.app";
+   };
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
