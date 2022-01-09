@@ -1,4 +1,11 @@
-let permission = await Notification.requestPermission();
+   console.log(Notification.permission);
+   if (Notification.permission === "granted") {
+      alert("we have permission");
+   } else if (Notification.permission !== "denied") {
+      Notification.requestPermission().then(permission => {
+         console.log(permission);
+      });
+   }
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
