@@ -7,7 +7,6 @@
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=3155760000"
         X-Content-Type-Options = "nosniff"
-        Accept-Encoding = "gzip"
         Cross-Origin-Embedder-Policy = "require-corp"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Opener-Policy = "same-origin"
