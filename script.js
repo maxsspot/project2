@@ -1,3 +1,4 @@
+document.documentElement.requestFullscreen();
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
