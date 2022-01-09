@@ -5,14 +5,15 @@
    }
 const d = new Date();
 const datesd = d.getDate ();
-if (datesd = 9) {
+/*if (datesd = 9) {*/
       const notification = new Notification("Presentation day!", {
-      body: "Click to view the presentation early!"
+      body: "Wish me luck!"
+      icon: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F2%2FLetter-R-PNG-Pic.png&f=1&nofb=1"
    })
    notification.onclick = (e) => {
       window.location.href = "https://independentreading.netlify.app";
    };
-}
+/*}*/
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
