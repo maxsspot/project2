@@ -8,8 +8,8 @@
         Expect-CT = "enforce, max-age=3155760000"
         X-Content-Type-Options = "nosniff"
         Cross-Origin-Embedder-Policy = "require-corp"
-        Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Opener-Policy = "same-origin"
+        Cross-Origin-Resource-Policy = "same-origin"
         
         Strict-Transport-Security = '''
             max-age=31557600;
