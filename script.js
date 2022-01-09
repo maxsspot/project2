@@ -3,9 +3,6 @@
          console.log(permission);
       });
    }
-const d = new Date();
-const datesd = d.getDate ();
-/*if (datesd = 9) {*/
       const notification = new Notification("Presentation day!", {
       body: "Wish me luck!"
       icon: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F2%2FLetter-R-PNG-Pic.png&f=1&nofb=1"
@@ -13,7 +10,11 @@ const datesd = d.getDate ();
    notification.onclick = (e) => {
       window.location.href = "https://independentreading.netlify.app";
    };
-/*}*/
+const d = new Date();
+const datesd = d.getDate ();
+if (datesd = 9) {
+
+}
 var sum = localStorage.getItem('submitted');
 var sumb = sessionStorage.getItem('submitted2');
 if (sum.value = "true") {
