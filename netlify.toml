@@ -8,7 +8,10 @@
         Expect-CT = "enforce, max-age=3155760000"
         X-Content-Type-Options = "nosniff"
         Accept-Encoding = "gzip"
-       
+        Cross-Origin-Embedder-Policy = "require-corp"
+        Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Opener-Policy = "same-origin"
+        
         Strict-Transport-Security = '''
             max-age=31557600;
             includeSubDomains;
@@ -16,4 +19,23 @@
        
         Permissions-Policy = '''
             interest-cohort=(none)
+        '''
+
+        Content-Security-Policy = '''
+            default-src https:;
+            script-src https:;
+            style-src https:;
+            img-src https:;
+            manifest-src 'none';
+            media-src 'none';
+            object-src 'none';
+            form-action 'self';
+            font-src https:
+            frame-ancestors 'none';
+            worker-src 'none';
+            child-src 'none';
+            base-uri 'none';
+            upgrade-insecure-requests;
+            require-trusted-types-for 'script';
+            report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
         '''
