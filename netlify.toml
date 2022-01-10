@@ -7,9 +7,6 @@
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=3155760000"
         X-Content-Type-Options = "nosniff"
-        Cross-Origin-Opener-Policy = "same-origin"
-        Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "require-corp"
         
         Strict-Transport-Security = '''
             max-age=31557600;
@@ -18,4 +15,21 @@
        
         Permissions-Policy = '''
             interest-cohort=(none)
+        '''
+
+        Content-Security-Policy = '''
+            default-src 'self';
+            script-src 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'report-sample';
+            style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic';
+            img-src https:;
+            manifest-src 'none';
+            media-src 'none';
+            object-src 'none';
+            frame-src 'none';
+            frame-ancestors 'none';
+            worker-src 'none';
+            child-src 'none';
+            base-uri 'none';
+            upgrade-insecure-requests;
+            require-trusted-types-for 'script';
         '''
