@@ -22,7 +22,7 @@
             script-src 'nonce-d2h5LXlvdS1kZWNvZGUtdGhpcw==' 'report-sample';
             style-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==' 'nonce-am9lLW1hbWEtc3Vzc3ktYmFrYQ==' 'strict-dynamic';
             img-src https:;
-            font-src 'nonce-c3Vzc3ktYmFrLWNoZWVzZWJ1cmdlcg==';
+            font-src '*';
             manifest-src 'none';
             media-src 'none';
             object-src 'none';
