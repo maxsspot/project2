@@ -7,6 +7,13 @@
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=3155760000"
         X-Content-Type-Options = "nosniff"
+        Accept-Encoding = "gzip"
+        Access-Control-Allow-Methods = "POST"
+        Origin = "independentreading.netlify.app"
+        Access-Control-Allow-Origin = "independentreading.netlify.app"
+        Access-Control-Request-Method = "POST"
+        Content-Encoding = "gzip"
+        
         
         Strict-Transport-Security = '''
             max-age=31557600;
